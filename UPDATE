@@ -1,6 +1,6 @@
 {
-  "Version": "2.2.8",
-  "ReleaseNotes": "CLARO ESTÁ ON NOVAMENTE",
+  "Version": "2.3.9",
+  "ReleaseNotes": "CLARO ON",
   "UrlUpdate": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/UPDATE",
   "Sms": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/SMS",
   "EmailFeedback": "NETOLLY@gmail.com",
@@ -147,11 +147,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO BOOM4U",
+      "Name": "CLARO DESCOMPLICA",
       "FLAG": "claro",
-      "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "boom4u.com.br",
-      "TlsIP": "boom4u.com.br",
+      "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "Atendimento.descomplica.com.br",
+      "TlsIP": "No.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
