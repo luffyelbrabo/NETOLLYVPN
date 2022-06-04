@@ -1,6 +1,6 @@
 {
-  "Version": "2.9.9",
-  "ReleaseNotes": "CLARO ON",
+  "Version": "3.1.0",
+  "ReleaseNotes": "CORREÇÃO NAS CONFIGURAÇÕES DAS OPERADORAS",
   "UrlUpdate": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/UPDATE2",
   "Sms": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/SMS",
   "EmailFeedback": "NETOLLY@gmail.com",
@@ -142,6 +142,16 @@
       "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "content.akross.com.br",
       "TlsIP": "content.akross.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO NEW",
+      "FLAG": "claro",
+      "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "api.new.livestream.com",
+      "TlsIP": "api.new.livestream.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
