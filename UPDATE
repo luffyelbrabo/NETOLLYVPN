@@ -1,6 +1,6 @@
 {
-  "Version": "4.4.4",
-  "ReleaseNotes": "NOVAS OPÇÕES ADICIONADAS DAS OPERADORAS\n CLARO, VIVO, TIM, OI.",
+  "Version": "4.5.4",
+  "ReleaseNotes": "NOVA ATUALIZAÇÃO DISPONÍVEL\n CORREÇÃO EM TODAS AS OPÇÕES\n • CLARO + 16 PAYLOAD NOVAS\n • VIVO + 6 PAYLOAD NOVAS\n • TIM + 5 PAYLOAD NOVAS\n • OI + 8 PAYLOAD NOVAS.",
   "UrlUpdate": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/UPDATE",
   "Sms": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/SMS",
   "EmailFeedback": "NETOLLY@gmail.com",
