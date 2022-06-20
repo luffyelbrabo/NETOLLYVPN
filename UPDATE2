@@ -1,6 +1,6 @@
 {
-  "Version": "4.4.3",
-  "ReleaseNotes": "NOVA ATUALIZAÇÃO DISPONÍVEL\n CORREÇÃO EM TODAS AS OPÇÕES\n • CLARO + 16 PAYLOAD NOVAS\n • VIVO + 6 PAYLOAD NOVAS\n • TIM + 5 PAYLOAD NOVAS\n • OI + 8 PAYLOAD NOVAS.",
+  "Version": "4.5.9",
+  "ReleaseNotes": "NOVA ATUALIZAÇÃO\n\nO QUE A DE NOVO NESTA ATUALIZAÇÃO:\n\n• NOVA CONFIGURAÇÃO CLARO ADICIONADA, DISPONÍVEL NA OPÇÃO CLARO [04].\n\n• OPÇÃO CHEKUSER ADICIONADA AGORA VC PODE VER A DATA DE VALIDADE, QUANTO DISPOSITIVO E OS DIAS RESTANTES.",
   "UrlUpdate": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/UPDATE2",
   "Sms": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/SMS",
   "EmailFeedback": "NETOLLY@gmail.com",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "luffyelbrabo.xyz",
-      "CheckUser": "http://191.252.181.97:6888/checkUser",
+      "CheckUser": "http://luffyelbrabo.xyz:6888/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -109,7 +109,7 @@
             "Info": "Tlsws"
         },
         {
-           "Name": "CLARO TLSWS [04]",
+           "Name": "CLARO TLSWS [03]",
            "FLAG": "claro",
            "Payload": "GET ws://connect.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
            "SNI": "connect.kaltura.com",
@@ -119,17 +119,17 @@
            "Info": "Tlsws"
         },
         {
-            "Name": "CLARO TLSWS [05]",
+            "Name": "CLARO TLSWS [04]",
             "FLAG": "claro",
-            "Payload": "GET ws://icanhazip.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-            "SNI": "icanhazip.com",
-            "TlsIP": "icanhazip.com",
+            "Payload": "GET ws://webmail.nocolivestream.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "webmail.nocolivestream.com",
+            "TlsIP": "webmail.nocolivestream.com",
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
         },
         {
-            "Name": "CLARO TLSWS [06]",
+            "Name": "CLARO TLSWS [05]",
             "FLAG": "claro",
             "Payload": "GET ws://4.icanhazip.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
             "SNI": "4.icanhazip.com",
@@ -139,7 +139,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "CLARO TLSWS [07]",
+            "Name": "CLARO TLSWS [06]",
             "FLAG": "claro",
             "Payload": "GET wss://ipv4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "ipv4.icanhazip.com",
@@ -149,7 +149,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "CLARO TLSWS [08]",
+            "Name": "CLARO TLSWS [07]",
             "FLAG": "claro",
             "Payload": "GET wss://www.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
             "SNI": "www.icanhazip.com",
@@ -159,7 +159,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "CLARO TLSWS [09]",
+            "Name": "CLARO TLSWS [08]",
             "FLAG": "claro",
             "Payload": "GET wss://communitystaging.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
             "SNI": "communitystaging.kaltura.com",
@@ -169,7 +169,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "CLARO TLSWS [10]",
+            "Name": "CLARO TLSWS [09]",
             "FLAG": "claro",
             "Payload": "GET wss://learning.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
             "SNI": "learning.kaltura.com",
@@ -179,7 +179,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "CLARO TLSWS [11]",
+            "Name": "CLARO TLSWS [10]",
             "FLAG": "claro",
             "Payload": "GET sni://blog.kaltura.com HTTP/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
             "SNI": "blog.kaltura.com",
@@ -189,7 +189,7 @@
             "Info": "Tlsws"
         },
         {      
-            "Name": "CLARO TLSWS [12]",
+            "Name": "CLARO TLSWS [11]",
             "FLAG": "claro",
             "Payload": "GET sni://br.corp.kaltura.com HTTP/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
             "SNI": "br.corp.kaltura.com",
@@ -199,7 +199,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "CLARO TLSWS [13]",
+            "Name": "CLARO TLSWS [12]",
             "FLAG": "claro",
             "Payload": "GET sni://es.corp.kaltura.com HTTP/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
             "SNI": "es.corp.kaltura.com",
@@ -209,7 +209,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "CLARO TLSWS [14]",
+            "Name": "CLARO TLSWS [13]",
             "FLAG": "claro",
             "Payload": "GET sni://go.kaltura.com HTTP/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
             "SNI": "go.kaltura.com",
@@ -219,7 +219,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "CLARO TLSWS [15]",
+            "Name": "CLARO TLSWS [14]",
             "FLAG": "claro",
             "Payload": "GET sni://stage-corp.kaltura.com HTTP/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
             "SNI": "stage-corp.kaltura.com",
@@ -229,7 +229,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "CLARO TLSWS [16]",
+            "Name": "CLARO TLSWS [15]",
             "FLAG": "claro",
             "Payload": "GET sni://1560811.mediaspace.kaltura.com HTTP/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
             "SNI": "1560811.mediaspace.kaltura.com",
@@ -299,7 +299,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "OI PROXY [03]",
+            "Name": "OI PROXY [02]",
             "FLAG": "oi",
             "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf",
             "SNI": "",
@@ -309,7 +309,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "OI TLSWS [05]",
+            "Name": "OI TLSWS [03]",
             "FLAG": "oi",
             "Payload": "GET / HTTP/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "oii.gdmhost.ga",
@@ -319,7 +319,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "OI TLSWS [06]",
+            "Name": "OI TLSWS [04]",
             "FLAG": "oi",
             "Payload": "GET / HTTP/1.1[crlf]Host:  [app_host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "[app_host]",
@@ -329,7 +329,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "OI TLSWS [07]",
+            "Name": "OI TLSWS [05]",
             "FLAG": "oi",
             "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
             "SNI": "www.hbogo.com.br",
@@ -339,7 +339,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "OI PROXY [08]",
+            "Name": "OI PROXY [06]",
             "FLAG": "oi",
             "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "",
