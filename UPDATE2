@@ -1,5 +1,5 @@
 {
-  "Version": "4.6.6",
+  "Version": "4.7.7",
   "ReleaseNotes": "NOVA ATUALIZAÇÃO\n\nO QUE A DE NOVO NESTA ATUALIZAÇÃO:\n\n• SERVIDOR ALTERADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/UPDATE2",
   "Sms": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/SMS",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "no.matheus22.tk",
-      "CheckUser": "http://no.matheus22.tk:6888/checkUser",
+      "CheckUser": "http://luffyelbrabo.xyz:6888/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
