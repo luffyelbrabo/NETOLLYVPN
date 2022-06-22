@@ -1,6 +1,6 @@
 {
-  "Version": "4.6.9",
-  "ReleaseNotes": "NOVA ATUALIZAÇÃO\n\nO QUE A DE NOVO NESTA ATUALIZAÇÃO:\n\n• NOVA CONFIGURAÇÃO CLARO ADICIONADA, DISPONÍVEL NA OPÇÃO CLARO [04].",
+  "Version": "4.7.7",
+  "ReleaseNotes": "NOVA ATUALIZAÇÃO",
   "UrlUpdate": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/UPDATE",
   "Sms": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/SMS",
   "EmailFeedback": "NETOLLY@gmail.com",
@@ -17,7 +17,7 @@
       "Name": "SERVIDOR (BR01)",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "superzap.ml",
+      "ServerIP": "no.matheus22.tk",
       "CheckUser": "http://191.252.181.97:6888/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
