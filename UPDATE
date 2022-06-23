@@ -1,6 +1,6 @@
 {
-  "Version": "5.1.0",
-  "ReleaseNotes": "NOVA ATUALIZAÇÃO\n\nO QUE A DE NOVO NESTA ATUALIZAÇÃO:\n\n• NOVA CONFIGURAÇÃO CLARO ADICIONADA, DISPONÍVEL DA OPÇÃO VIVO [01] ATÉ VIVO [08]].",
+  "Version": "5.2.0",
+  "ReleaseNotes": "NOVA ATUALIZAÇÃO\n\nO QUE A DE NOVO NESTA ATUALIZAÇÃO:\n\n•NOVA CONFIGURAÇÃO VIVO ADICIONADA, DISPONÍVEL NA OPÇÃO VIVO [09]\n\n•SERVIDOR CORRIGINDO",
   "UrlUpdate": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/UPDATE",
   "Sms": "https://raw.githubusercontent.com/Matheusreiv/NETOLLYVPN/main/SMS",
   "EmailFeedback": "NETOLLY@gmail.com",
@@ -17,8 +17,8 @@
       "Name": "SERVIDOR (BR01)",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "luffyelbrabo.xyz",
-      "CheckUser": "http://luffyelbrabo.xyz:6888/checkUser",
+      "ServerIP": "no.matheus22.tk",
+      "CheckUser": "http://191.252.181.97:6888/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -107,6 +107,16 @@
             "Info": "Tlsws"
         },
         {
+            "Name": "VIVO [09]",
+            "FLAG": "vivo",
+            "Payload": "GET wss://celular.vivo.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+            "SNI": "celular.vivo.com.br",
+            "TlsIP": "celular.vivo.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
             "Name": "CLARO TLSWS [01]",
             "FLAG": "claro",
             "Payload": "GET ws://ct.livestream.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
@@ -115,7 +125,6 @@
             "ProxyIP": "",
             "ProxyPort": "",
             "Info": "Tlsws"
-
         },
         {    
             "Name": "CLARO TLSWS [02]",
