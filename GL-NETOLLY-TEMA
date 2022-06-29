@@ -51,13 +51,13 @@
     }, 
     {
       "user_id": 27, 
-      "value": "250", 
+      "value": "80", 
       "id": 557, 
       "name": "logo_height"
     }, 
     {
       "user_id": 27, 
-      "value": "250", 
+      "value": "80", 
       "id": 558, 
       "name": "logo_width"
     }, 
@@ -76,13 +76,13 @@
     }, 
     {
       "user_id": 27, 
-      "value": "200", 
+      "value": "80", 
       "id": 2383, 
       "name": "logo_height"
     }, 
     {
       "user_id": 27, 
-      "value": "200", 
+      "value": "80", 
       "id": 2384, 
       "name": "logo_width"
     }, 
