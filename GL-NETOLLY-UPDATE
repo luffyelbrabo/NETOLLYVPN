@@ -9,9 +9,9 @@
   "current_page": 1,
   "pages": 1, "results": [
  { 
-  "name": "🟣 VIVO 1 🇧🇷",
+  "name": "VIVO 1",
   "config_v2ray": "",
-  "server_hostname": "SEUXING.XYZ",
+  "server_hostname": "no.matheus22.tk",
   "description": "[SSH+DIRECT]",
   "username": "", "server_port": 80,
   "icon_image": "https://i.imgur.com/IVQBeuF.png",
@@ -21,7 +21,7 @@
   "category_id": 1,
   "v2ray_uuid": "",
   "primary_dns_server": "8.8.8.8",
-  "payload": "FORCE /? FULL / HTTP/1.0[crlf]HOST: SEUXING.XYZ[crlf]UPGRADE: t.me/scottssh[crlf][crlf]",
+  "payload": "FORCE /? FULL / HTTP/1.0[crlf]HOST: no.matheus22.tk[crlf]UPGRADE: t.me/scottssh[crlf][crlf]",
   "status": "ACTIVE", "secondary_dns_server": "8.8.4.4",
   "sni": "",
   "config_mode": "ssh_direct",
@@ -42,7 +42,7 @@
   },
   
    { 
-   "name": "🟣 VIVO 2 🇧🇷",
+   "name": "VIVO 2",
    "config_v2ray": "",
    "server_hostname": "",
    "description": "[SSL+PROXY]",
@@ -55,7 +55,7 @@
    "category_id": 1,
    "v2ray_uuid": "",
    "primary_dns_server": "1.1.1.1",
-   "payload": "GET wss://vivodocdigital.vivo.com.br/ HTTP/1.1[lf]Host: SEUXING.XYZ[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: webscott[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+   "payload": "GET wss://vivodocdigital.vivo.com.br/ HTTP/1.1[lf]Host: no.matheus22.tk[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: webscott[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
   "status": "ACTIVE",
   "secondary_dns_server": "1.0.0.1",
   "sni": "vivodocdigital.vivo.com.br",
@@ -79,9 +79,9 @@
    }, 
    
   { 
-  "name": "🟣 VIVO 3 🇧🇷",
+  "name": "VIVO 3",
   "config_v2ray": "",
-  "server_hostname": "SEUXING.XYZ",
+  "server_hostname": "no.matheus22.tk",
   "description": "[SSL+PROXY]",
   "username": "",
   "server_port": 443,
@@ -114,7 +114,7 @@
    },
    
   { 
-  "name": "🔴 CLARO 1 🇧🇷",
+  "name": "CLARO 1",
   "config_v2ray": "",
   "server_hostname": "",
   "description": "[SSL+PROXY]",
@@ -127,7 +127,7 @@
   "category_id": 2,
   "v2ray_uuid": "",
   "primary_dns_server": "8.8.8.8",
-  "payload": "GET wss://4.icanhazip.com HTTP/1.1[crlf]Host: SEUXING.XYZ[crlf]Upgrade: webscott[crlf][crlf]",
+  "payload": "GET wss://4.icanhazip.com HTTP/1.1[crlf]Host: no.matheus22.tk[crlf]Upgrade: webscott[crlf][crlf]",
   "status": "ACTIVE",
   "secondary_dns_server": "8.8.4.4",
   "sni": "4.icanhazip.com",
@@ -151,7 +151,7 @@
    }, 
    
    { 
-  "name": "🔵 TIM 1 🇧🇷", 
+  "name": "TIM 1", 
   "config_v2ray": "", 
   "server_hostname": "", 
   "description": "[SSL+PROXY]", 
@@ -163,7 +163,7 @@
   "category_id": 3,
   "v2ray_uuid": "",
   "primary_dns_server": "8.8.8.8", 
-  "payload": "GET wss://static.r4you.co HTTP/1.1[lf]Host: SEUXING.XYZ[crlf]Upgrade: webscott[crlf][crlf]", 
+  "payload": "GET wss://static.r4you.co HTTP/1.1[lf]Host: no.matheus22.tk[crlf]Upgrade: webscott[crlf][crlf]", 
   "status": "ACTIVE", 
   "secondary_dns_server": "8.8.4.4", 
   "sni": "static.r4you.co", 
@@ -186,9 +186,9 @@
    }, 
    
    { 
-  "name": "🔵 TIM 2 🇧🇷", 
+  "name": "TIM 2", 
   "config_v2ray": "", 
-  "server_hostname": "SEUXING.XYZ", "description": "[SSL+PROXY]",
+  "server_hostname": "no.matheus22.tk", "description": "[SSL+PROXY]",
   "username": "",
   "server_port": 443,
   "icon_image": "https://i.imgur.com/Wn26Zn5.png",
@@ -221,7 +221,7 @@
    }, 
    
    { 
-  "name": "🟡 OI 1 🇧🇷", 
+  "name": "OI 1", 
   "config_v2ray": "", 
   "server_hostname": "", 
   "description": "[SSL+PROXY]", 
@@ -232,7 +232,7 @@
   "udp_port": "7300", 
   "category_id": 4, "v2ray_uuid": "", 
   "primary_dns_server": "8.8.8.8", 
-  "payload": "GET wss://www.hbogo.com.br/ HTTP/1.1[lf]Host: SEUXING.XYZ[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: webscott[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+  "payload": "GET wss://www.hbogo.com.br/ HTTP/1.1[lf]Host: no.matheus22.tk[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: webscott[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
   "status": "ACTIVE", 
   "secondary_dns_server": "8.8.4.4", 
   "sni": "www.hbogo.com.br", 
@@ -256,7 +256,7 @@
    }, 
    
    { 
-  "name": "🟡 OI 2 🇧🇷", 
+  "name": "OI 2", 
   "config_v2ray": "", 
   "server_hostname": "", 
   "description": "[SSL+PROXY]", 
@@ -268,7 +268,7 @@
   "category_id": 4, 
   "v2ray_uuid": "", 
   "primary_dns_server": "8.8.8.8", 
-  "payload": "GET wss://www.hbogo.com.br/ HTTP/1.1[lf]Host: SEUXING.XYZ[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: webscott[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", 
+  "payload": "GET wss://www.hbogo.com.br/ HTTP/1.1[lf]Host: no.matheus22.tk[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: webscott[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", 
   "status": "ACTIVE", 
   "secondary_dns_server": "8.8.4.4", 
   "sni": "www.hbogo.com.br", 
